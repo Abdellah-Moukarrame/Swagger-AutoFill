@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Swagger Autofill",
+  "version": "1.0.1",
+  "description": "Fill Swagger UI fields with fresh sample data based on their names and types.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Remplir Swagger",
+    "default_popup": "popup.html"
+  }
+}

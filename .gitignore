@@ -1,0 +1,18 @@
+# Chrome Web Store packaging and promotional images (not needed to run the extension)
+/swagger-autofill-chrome-store.zip
+/Swagger-Autofill-1280x800.jpg
+/Swagger-Autofill-promo-440x280.jpg
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Dependency and build output
+node_modules/
+dist/
+build/
+coverage/
+*.log
